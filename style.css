@@ -1,0 +1,597 @@
+body{
+    padding: 25px;
+}
+.topnavbar{
+    background-color: hsl(150, 81%, 38%);
+    color: white;
+    text-align: center;
+}
+.rasinavbar{
+    display: flex;
+    flex-direction: row;
+    gap: 25%;
+
+}
+.home{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.callicon{
+    width: 12%;
+    height: 12%;
+}
+.firstbutton{
+    background-color: gray;
+    
+}
+.background{
+    text-align: center;
+}
+.secondnavbar{
+    color: white;
+    background-image: url(photos/download2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.line {
+    border-bottom: 1px solid #888;
+    
+  }
+  .india{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .tbuttons{
+display: flex;
+flex-direction: row;
+gap: 5%;
+  }
+  .button1{
+    background-color: hsl(150, 81%, 38%);
+  }
+  .timeless{
+    display: flex;
+    flex-direction: row;
+    gap: 25%;
+  }
+  .myimage{
+    width: 100%;
+  }
+  .premium{
+    display: flex;
+    flex-direction: row;
+    background-color: #d9d9d9;
+    gap: 20%;
+  }
+  .win{
+    display: flex;
+    flex-direction: row;
+  }
+  .warranty{
+    display: flex;
+    flex-direction: row;
+  }
+  .timely{
+    display: flex;
+    flex-direction: row;
+  }
+  .sustainable{
+    display: flex;
+    flex-direction: row;
+  }
+  .array{
+    text-align: center;
+  }
+  #radius img{
+  border-radius: 25px;
+  width: 200px;
+  height: 150px;
+}
+  .painting{
+    display: flex;
+    flex-direction: row;
+    gap: 30%;
+  }
+  .traditional{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10%;
+  }
+  .texts{
+    display: flex;
+    flex-direction: row;
+    gap: 20%;
+  }
+  .button3{
+    align-items: center;
+  }
+  .adiya{
+    display: flex;
+    flex-direction: row;
+    gap: 30%;
+  }
+  .sofa{
+    display: flex;
+    flex-direction: column;
+    gap: 20%
+ }
+ .logos-7{
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    text-align: center;
+ }
+
+ .myimages1 img {
+    border-radius: 50px;
+ }
+ .myimages2 img{
+    border-radius: 50px;
+ }
+ .myimages3 img{
+    border-radius: 50px;
+ }
+ .row{
+    display: flex;
+    flex-direction: row;
+    gap: 30%;
+ }
+ .sofa{
+  width: 700px;
+ }
+ #footer{
+  background-color: rgb(14, 14, 36);
+  color: white;
+  display: flex;
+  gap: 8%;
+  text-align: center;
+}
+ @media screen and (min-width: 280px) and (max-width: 680px) {
+  body{
+    padding: 25px;
+}
+  .topnavbar{
+    background-color: hsl(150, 81%, 38%);
+    color: white;
+    text-align: center;
+}
+.rasinavbar{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25%;
+
+}
+.home{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.callicon{
+    width: 12%;
+    height: 12%;
+}
+.firstbutton{
+    background-color: gray;
+    
+}
+.background{
+    text-align: center;
+}
+.secondnavbar{
+    color: white;
+    background-image: url(photos/download2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.line {
+    border-bottom: 1px solid #888;
+    
+  }
+  .india{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .tbuttons{
+display: flex;
+flex-wrap: wrap;
+gap: 5%;
+  }
+  .button1{
+    background-color: hsl(150, 81%, 38%);
+  }
+  .timeless{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25%;
+  }
+  .myimage{
+    width: 100%;
+  }
+  .premium{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #d9d9d9;
+    gap: 20%;
+  }
+  .paragraph{
+    width: 5%;
+  }
+  .win{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .warranty{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .timely{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .sustainable{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .array{
+    text-align: center;
+  }
+  #radius img{
+  border-radius: 25px;
+  width: 200px;
+  height: 150px;
+}
+  .painting{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30%;
+  }
+  .traditional{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10%;
+  }
+  .texts{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20%;
+  }
+  .button3{
+    align-items: center;
+    display: flex;
+    flex-wrap:wrap ;
+  }
+  .adiya{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30%;
+  }
+  .sofa{
+    display: flex;
+    flex-wrap: wrap;
+
+ }
+ .logos-7{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10%;
+    text-align: center;
+ }
+
+ .myimages1 img {
+    border-radius: 50px;
+ }
+ .myimages2 img{
+    border-radius: 50px;
+ }
+ .myimages3 img{
+    border-radius: 50px;
+ }
+ .row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15%;
+ }
+ }
+ @media screen and (min-width: 700px) and (max-width: 1200px) {
+  body{
+    padding: 25px;
+}
+  .topnavbar{
+    background-color: hsl(150, 81%, 38%);
+    color: white;
+    text-align: center;
+}
+.rasinavbar{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25%;
+
+}
+.home{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.callicon{
+    width: 12%;
+    height: 12%;
+}
+.firstbutton{
+    background-color: gray;
+    
+}
+.background{
+    text-align: center;
+}
+.secondnavbar{
+    color: white;
+    background-image: url(photos/download2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.line {
+    border-bottom: 1px solid #888;
+    
+  }
+  .india{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .tbuttons{
+display: flex;
+flex-wrap: wrap;
+gap: 5%;
+  }
+  .button1{
+    background-color: hsl(150, 81%, 38%);
+  }
+  .timeless{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25%;
+  }
+  .myimage{
+    width: 100%;
+  }
+  .premium{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #d9d9d9;
+    gap: 20%;
+  }
+  .paragraph{
+    width: 5%;
+  }
+  .win{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .warranty{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .timely{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .sustainable{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .array{
+    text-align: center;
+  }
+  #radius img{
+  border-radius: 25px;
+  width: 200px;
+  height: 150px;
+}
+  .painting{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30%;
+  }
+  .traditional{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10%;
+  }
+  .texts{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20%;
+  }
+  .button3{
+    align-items: center;
+    display: flex;
+    flex-wrap:wrap ;
+  }
+  .adiya{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30%;
+  }
+  .sofa{
+    display: flex;
+    flex-wrap: wrap;
+
+ }
+ .logos-7{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10%;
+    text-align: center;
+ }
+
+ .myimages1 img {
+    border-radius: 50px;
+ }
+ .myimages2 img{
+    border-radius: 50px;
+ }
+ .myimages3 img{
+    border-radius: 50px;
+ }
+ .row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15%;
+ }
+ }
+ @media screen and (min-width: 1200px) and (max-width: 1600px) {
+  body{
+    padding: 25px;
+}
+  .topnavbar{
+    background-color: hsl(150, 81%, 38%);
+    color: white;
+    text-align: center;
+}
+.rasinavbar{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25%;
+
+}
+.home{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.callicon{
+    width: 12%;
+    height: 12%;
+}
+.firstbutton{
+    background-color: gray;
+    
+}
+.background{
+    text-align: center;
+}
+.secondnavbar{
+    color: white;
+    background-image: url(photos/download2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.line {
+    border-bottom: 1px solid #888;
+    
+  }
+  .india{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .tbuttons{
+display: flex;
+flex-wrap: wrap;
+gap: 5%;
+  }
+  .button1{
+    background-color: hsl(150, 81%, 38%);
+  }
+  .timeless{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25%;
+  }
+  .myimage{
+    width: 100%;
+  }
+  .premium{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #d9d9d9;
+    gap: 20%;
+  }
+  .paragraph{
+    width: 5%;
+  }
+  .win{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .warranty{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .timely{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .sustainable{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .array{
+    text-align: center;
+  }
+  #radius img{
+  border-radius: 25px;
+  width: 200px;
+  height: 150px;
+}
+  .painting{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30%;
+  }
+  .traditional{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10%;
+  }
+  .texts{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20%;
+  }
+  .button3{
+    align-items: center;
+    display: flex;
+    flex-wrap:wrap ;
+  }
+  .adiya{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30%;
+  }
+  .sofa{
+    display: flex;
+    flex-wrap: wrap;
+
+ }
+ .logos-7{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10%;
+    text-align: center;
+ }
+
+ .myimages1 img {
+    border-radius: 50px;
+ }
+ .myimages2 img{
+    border-radius: 50px;
+ }
+ .myimages3 img{
+    border-radius: 50px;
+ }
+ .row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15%;
+ }
+ }
+ 
+ 
+ 
+ 
+ 
+ 
